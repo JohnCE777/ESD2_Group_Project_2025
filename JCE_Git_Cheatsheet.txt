@@ -1,0 +1,29 @@
+Git Cheatsheet - John Ettipio
+
+-clone:    coppies a remote repository (repo) to the folder the command is run in
+example:   git clone https://github.com/JohnCE777/ESD2_Group_Project_2025
+
+
+-pull:     Run this command in the folder with your repo and it will update your local copy with the remote version
+           !ALWAYS RUN THIS COMMAND BEFORE YOU START WORKING TO ENSURE THERE AREN'T MERGE CONFLICTS!
+example:   git pull
+
+
+-add:      Adds the files you created to the staging area
+example:   git add * [* adds all files; usually what you want]
+
+
+-commit:   Adds you changes to a new version of the LOCAL repo
+example:   git commit -m "Created a function to average 3 numbers" [use -m and quotes as show to describe the change you made]
+
+
+-push:     Updates the remote repository with the changes you commited
+example:   git push
+
+
+The typical workflow after you have established the repo is
+[change something] > git add * > git commit -m "description of change" > git push
+
+Always pull when you start working, push your changes often, give meaningful commit descriptions (best practice is <=50 chars)
+
+Happy Gitting!
